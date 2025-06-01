@@ -1,18 +1,18 @@
-# Modelo classificador de potenciais bons pagadores de crédito: um comparativo entre Naive Bayes, Máquinas de Vetores de Suporte, Árvores de Decisão e Florestas Aleatórias
+# 💸 Modelo classificador de potenciais bons pagadores de crédito: um comparativo entre Naive Bayes, Máquinas de Vetores de Suporte, Árvores de Decisão e Florestas Aleatórias
 
-## Descrição do Projeto
+## 📃 Descrição do Projeto
 
 Este projeto tem como objetivo desenvolver e comparar modelos de Machine Learning para classificar potenciais clientes de crédito como "bons pagadores" ou "maus pagadores". A análise é realizada com base em um conjunto de dados de clientes de um banco alemão, explorando diferentes algoritmos de classificação: Naive Bayes, Máquinas de Vetores de Suporte (SVM), Árvores de Decisão e Florestas Aleatórias (Random Forests). O projeto inclui etapas de análise exploratória, pré-processamento de dados, treinamento e avaliação dos modelos, além da aplicação de um dos modelos treinados para prever a classificação de um novo cliente.
 
-## Objetivo
+## 🎯 Objetivo
 
 O principal objetivo é criar um modelo preditivo que, a partir de características específicas de um novo cliente, possa indicar sua propensão a ser um bom pagador de crédito. Além disso, o projeto busca comparar a performance de diferentes algoritmos de classificação para identificar qual deles apresenta os melhores resultados para este problema.
 
-## Dataset
+## 💾 Dataset
 
 O dataset utilizado neste projeto contém dados de vários clientes de um banco alemão que solicitaram crédito. Cada cliente é descrito por um conjunto de características e, por fim, classificado como bom ou mau pagador de crédito. O dataset original (`Credit.csv`) possui 1000 instâncias e 21 atributos. Um arquivo adicional (`NovoCliente.csv`) contendo os dados de um único novo cliente (sem a classe de pagamento) é utilizado para demonstração de previsão.
 
-## Tecnologias e Bibliotecas Utilizadas
+## 🚀 Tecnologias e Bibliotecas Utilizadas
 
 *   **Python:** Linguagem de programação principal.
 *   **Pandas:** Para manipulação e análise de dados.
@@ -30,7 +30,7 @@ O dataset utilizado neste projeto contém dados de vários clientes de um banco 
 *   **Graphviz:** Para visualização gráfica da Árvore de Decisão.
 *   **Yellowbrick:** Para visualização gráfica da matriz de confusão.
 
-## Estrutura do Código
+## 🏛️ Estrutura do Código
 
 O código está organizado nas seguintes seções:
 
@@ -46,7 +46,7 @@ O código está organizado nas seguintes seções:
     *   **Treinamento e acurácia do modelo:** Treina o modelo Árvore de Decisão.
     *   Gera um arquivo `.dot` para visualização da árvore completa (com sugestão de ferramenta online para visualização).
 
-## Como Executar o Projeto
+## 💿 Como Executar o Projeto
 
 1.  Certifique-se de ter o Python instalado em seu ambiente.
 2.  Instale as bibliotecas necessárias:
