@@ -22,7 +22,7 @@ O dataset utilizado neste projeto contém dados de vários clientes de um banco 
     *   `DecisionTreeClassifier`: Implementação da Árvore de Decisão.
     *   `export_graphviz`: Para exportar a estrutura da Árvore de Decisão.
     *   `SVC`: Implementação da Máquina de Vetor de Suporte.
-    *   `ExtraTreesClassifier`: Para seleção de atributos (embora não totalmente implementado no snippet fornecido, a importação indica a intenção).
+    *   `ExtraTreesClassifier`: Para seleção de atributos
     *   `RandomForestClassifier`: Implementação da Floresta Aleatória.
     *   `LabelEncoder`: Para converter atributos categóricos em valores numéricos.
     *   `confusion_matrix`: Para gerar a matriz de confusão.
