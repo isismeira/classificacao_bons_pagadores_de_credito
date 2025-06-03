@@ -45,7 +45,12 @@ O código está organizado nas seguintes seções:
 4.  **Classificação com Árvores de Decisão:**
     *   **Treinamento e acurácia do modelo:** Treina o modelo Árvore de Decisão.
     *   Gera um arquivo `.dot` para visualização da árvore completa (com sugestão de ferramenta online para visualização).
-
+5.  **Classificação com Máquinas de Vetores de Suporte (SVM)**:
+    *   **Treinamento e acurácia do modelo**: Treinamento do modelo `SVC` e avaliação da sua acurácia.
+    *   **Seleção de atributos**: Utilização de `ExtraTreesClassifier` para determinar a importância dos atributos e criação de um subconjunto de dados com os atributos mais importantes para retreinar e reavaliar o modelo SVM.
+6.  **Classificação com Florestas Aleatórias**:
+    *   **Treinamento e acurácia do modelo**: Treinamento do modelo `RandomForestClassifier` com um número definido de estimadores e avaliação da sua acurácia.
+      
 ## 💿 Como Executar o Projeto
 
 1.  Certifique-se de ter o Python instalado em seu ambiente.
